@@ -1,0 +1,176 @@
+:root {
+    --bg-dark: #1E1E1E;
+    --card-dark: #2D2D2D;
+    --text-light: #A0A0A0;
+}
+
+.theme-transition {
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+body.dark {
+    background-color: var(--bg-dark);
+    color: white;
+}
+
+.dark .card {
+    background-color: var(--card-dark);
+}
+
+body.dark .text-gray-600 {
+    color: var(--text-light);
+}
+
+body.dark .start-btn {
+    background-color: rgba(99, 102, 241, 0.1);
+    color: #A5B4FC;
+}
+
+body.dark .start-btn:hover {
+    background-color: rgba(99, 102, 241, 0.2);
+}
+
+body.dark .points-badge {
+    background-color: rgba(16, 185, 129, 0.1);
+    color: #6EE7B7;
+}
+
+.theme-btn {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+}
+
+.theme-toggle svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.icon-transition {
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+}
+
+.progress-ring {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke-dashoffset 0.3s linear;
+}
+
+.points {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+body.dark .points {
+    background: var(--card-dark);
+}
+
+.btn {
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.counter-btn {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+body.dark .counter-btn {
+    background-color: #404040;
+    color: white;
+}
+
+.dark {
+    background-color: var(--bg-dark);
+    color: white;
+}
+
+.dark .theme-btn {
+    background-color: var(--card-dark);
+}
+
+/* Добавьте в секцию <style> */
+.achievement-card {
+    transition: all 0.3s ease;
+}
+
+.achievement-card:not(.opacity-50):hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#profileModal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+}
+
+#profileModal.active {
+    display: flex;
+}
+
+.achievement-unlocked {
+    opacity: 1 !important;
+    border: 2px solid #6366F1;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+.achievement-notification {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #10B981;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 50;
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
