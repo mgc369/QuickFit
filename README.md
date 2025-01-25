@@ -1,87 +1,86 @@
-# QuickFit: Фитнес для занятых - Руководство по установке и настройке
+# QuickFit: Fitness for Busy People - Installation and Setup Guide
 
-Добро пожаловать в QuickFit! Это приложение для фитнеса, созданное, чтобы помочь вам оставаться в форме и активными, даже при загруженном графике. Этот документ поможет вам установить и запустить приложение.
-
----
-
-## Возможности
-- **Переключение темы:** Переход между светлой и тёмной темами.
-- **Управление профилем:** Устанавливайте цели, отслеживайте прогресс и обновляйте уровень подготовки.
-- **Быстрые тренировки:** Таймеры для упражнений с начислением очков за выполнение.
-- **Достижения:** Разблокируйте награды за фитнес-достижения.
-- **Планировщик тренировок:** Планируйте тренировки и получайте уведомления.
-- **Панель статистики:** Просматривайте историю тренировок и еженедельный прогресс.
+Welcome to QuickFit! This fitness application is designed to help you stay fit and active, even with a busy schedule. This document will help you install and run the application.
 
 ---
 
-## Требования
-Для запуска проекта убедитесь, что у вас есть:
-- Современный веб-браузер (например, Chrome, Firefox, Edge).
-- Активное подключение к интернету для загрузки необходимых библиотек.
-- Включённое локальное хранилище в вашем браузере.
+## Features
+- **Theme Toggle:** Switch between light and dark themes.
+- **Profile Management:** Set goals, track progress and update fitness level.
+- **Quick Workouts:** Exercise timers with points awarded for completion.
+- **Achievements:** Unlock rewards for fitness milestones.
+- **Workout Planner:** Schedule workouts and receive notifications.
+- **Statistics Dashboard:** View workout history and weekly progress.
 
 ---
 
-## Шаги установки
-1. **Загрузите файлы**
-   Скачайте файлы проекта, включая `index.html`, `styles.css` и `script.js`. Поместите их в одну папку.
-
-2. **Проверьте зависимости**
-   Проект использует TailwindCSS. Убедитесь, что у вас есть доступ к интернету для использования CDN, указанного в `index.html`.
-
-3. **Откройте приложение**
-   Откройте `index.html` в вашем веб-браузере. Приложение загрузится автоматически.
+## Requirements
+To run the project, make sure you have:
+- Modern web browser (e.g., Chrome, Firefox, Edge).
+- Active internet connection for loading required libraries.
+- Enabled local storage in your browser.
 
 ---
 
-## Структура файлов
-- **`index.html`:** Основная структура приложения.
-- **`styles.css`:** Стили для приложения, включая светлую и тёмную темы.
-- **`script.js`:** Логика на JavaScript для интерактивности, таймеров и работы с локальным хранилищем.
+## Installation Steps
+1. **Download Files**
+   Download the project files, including `index.html`, `styles.css`, and `script.js`. Place them in a single folder.
+
+2. **Check Dependencies**
+   The project uses TailwindCSS. Make sure you have internet access for using the CDN specified in `index.html`.
+
+3. **Open Application**
+   Open `index.html` in your web browser. The application will load automatically.
 
 ---
 
-## Использование
-
-### Первоначальная настройка
-1. Откройте приложение в браузере.
-2. Используйте кнопку переключения темы, чтобы выбрать светлую или тёмную тему.
-3. Настройте профиль, нажав на кнопку профиля.
-
-### Тренировки
-1. Выберите тренировку из списка.
-2. Нажмите "Старт", чтобы начать таймер.
-3. Зарабатывайте очки за выполнение и разблокируйте достижения.
-
-### Планировщик
-1. Запланируйте тренировки в разделе планировщика.
-2. Получайте уведомления о начале тренировок.
-
-### Отслеживание прогресса
-- Проверяйте статистику и достижения в соответствующих разделах.
+## File Structure
+- **`index.html`:** Main application structure.
+- **`styles.css`:** Application styles, including light and dark themes.
+- **`script.js`:** JavaScript logic for interactivity, timers, and local storage operations.
 
 ---
 
-## Кастомизация
-1. **Обновление стилей:** Измените `styles.css` для персонализации внешнего вида.
-2. **Добавление новых функций:** Дополните `script.js` дополнительной функциональностью.
-3. **Изменение HTML:** Обновите `index.html` для модификации структуры приложения.
+## Usage
+
+### Initial Setup
+1. Open the application in browser.
+2. Use the theme toggle button to select light or dark theme.
+3. Set up your profile by clicking the profile button.
+
+### Workouts
+1. Choose a workout from the list.
+2. Press "Start" to begin the timer.
+3. Earn points for completion and unlock achievements.
+
+### Planner
+1. Schedule workouts in the planner section.
+2. Receive notifications for workout start times.
+
+### Progress Tracking
+- Check statistics and achievements in respective sections.
 
 ---
 
-## Устранение неполадок
-- **Тема не сохраняется:** Убедитесь, что ваш браузер поддерживает локальное хранилище.
-- **Уведомления не работают:** Разрешите уведомления в настройках браузера.
-- **Проблемы с таймером:** Перезагрузите приложение и сбросьте таймер.
+## Customization
+1. **Style Updates:** Modify `styles.css` to personalize appearance.
+2. **New Features:** Add functionality to `script.js`.
+3. **HTML Changes:** Update `index.html` to modify application structure.
 
 ---
 
-## Благодарности
-- Разработано [Вашей командой/Ваше имя].
-- Иконки от Heroicons.
-- Стилизация с помощью TailwindCSS.
+## Troubleshooting
+- **Theme Not Saving:** Ensure your browser supports local storage.
+- **Notifications Not Working:** Enable notifications in browser settings.
+- **Timer Issues:** Refresh application and reset timer.
 
 ---
 
-Спасибо, что выбрали QuickFit. Оставайтесь активными и здоровыми!
+## Acknowledgements
+- Developed by [Your team/Your name].
+- Icons from Heroicons.
+- Styling with TailwindCSS.
 
+---
+
+Thank you for choosing QuickFit. Stay active and healthy!
