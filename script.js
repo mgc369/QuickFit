@@ -232,13 +232,13 @@ function updateStatistics() {
         <div class="space-y-6">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div class="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
-                    <p class="text-gray-600 dark:text-gray-400 text-sm">Total Workouts</p>
+                    <p class="text-black dark:text-black text-sm">Total Workouts</p>
                     <p class="text-2xl font-bold text-black dark:text-white mt-1">
                         ${workoutHistory.length}
                     </p>
                 </div>
                 <div class="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
-                    <p class="text-gray-600 dark:text-gray-400 text-sm">Total Points</p>
+                    <p class="text-black dark:text-black text-sm">Total Points</p>
                     <p class="text-2xl font-bold text-black dark:text-white mt-1">
                         ${points}
                     </p>
@@ -247,7 +247,7 @@ function updateStatistics() {
             
             <div class="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
                 <div class="flex justify-between items-center mb-2">
-                    <p class="text-gray-600 dark:text-gray-400 text-sm">Progress to Weekly Goal</p>
+                    <p class="text-black dark:text-black text-sm">Progress to Weekly Goal</p>
                     <p class="text-sm font-medium text-black dark:text-white">
                         ${weeklyMinutes} / ${weeklyGoal} min
                     </p>
